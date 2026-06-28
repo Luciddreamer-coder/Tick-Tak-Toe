@@ -63,10 +63,6 @@ set FLASK_APP=app.py             # Windows
 # Run the server
 flask run
 
-
-
-
-
 5. Open in browser:
 Navigate to http://127.0.0.1:5000
 🎮 How to Play
@@ -89,6 +85,7 @@ tic-tac-toe/
 │   └── index.html         # Main game interface
 └── README.md
 
+
 🎨 Design Features
 Dark Background - Reduces eye strain during extended play
 Coral Red (X) - Vibrant color for Player X
@@ -96,6 +93,7 @@ Bright Blue (O) - Eye-catching color for Player O
 Green Win Message - Clear success indicator
 Yellow Reset Button - Prominent call-to-action
 Smooth Hover Effects - Enhanced user experience with CSS only
+
 🔧 How It Works (No JavaScript!)
 All game logic is handled server-side with Flask:
 Form Submissions - Each cell click submits a form to the server
@@ -103,6 +101,7 @@ Session Management - Game state stored in Flask session
 Win Detection - Python checks all 8 winning combinations
 Page Reloads - Server re-renders the board with updated state
 CSS Styling - All visual effects and layout handled by CSS
+
 📄 License
 MIT License - feel free to use this project for learning or personal use!
 Author - Peeyush
