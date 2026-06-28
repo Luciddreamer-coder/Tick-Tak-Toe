@@ -1,25 +1,57 @@
-# Tic Tac Toe Game
+# ❌⭕ Tic Tac Toe - Flask Web App
 
-A Flask-based Tic Tac Toe game with HTML and CSS only.
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-2.3-black?logo=flask)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 
-## Features
-- Dark theme design
-- Two player game
-- Win detection
-- Reset button
+> **A sleek, dark-themed Tic Tac Toe game built entirely with Flask (Python), HTML, and CSS - No JavaScript required!**
 
-## Installation
+![Game Screenshot](assets/screenshot.png)
+
+## ✨ Features
+
+-  **Classic 3x3 Gameplay** - Traditional Tic Tac Toe rules
+- 🎨 **Modern Dark Theme** - Eye-friendly dark interface with vibrant colors
+-  **Color-Coded Players** - X in coral red, O in bright blue
+- 🏆 **Instant Win Detection** - Server-side validation highlights winning combinations
+- 📱 **Responsive Design** - Works perfectly on all screen sizes
+- 🔄 **One-Click Reset** - Quick "Reset Game" button to start over
+- 💬 **Live Status Updates** - Real-time match status display
+- 🚫 **Zero JavaScript** - Pure Python/Flask backend with HTML/CSS frontend
+
+## 🛠️ Tech Stack
+
+**Backend:**
+- Python 3.10+
+- Flask 2.3+
+- Jinja2 Templating
+- `os` module
+
+**Frontend:**
+- HTML5
+- CSS3 (Custom styling with Flexbox/Grid)
+- **No JavaScript** - All logic handled server-side!
+
+## 📋 Prerequisites
+
+- Python 3.8 or higher
+- pip (Python package manager)
+- Modern web browser
+
+##  Installation
+
+**1. Clone the repository:**
 ```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
 cd YOUR-REPO-NAME
+
+**2. Create a virtual environment:**
+```
+# Windows
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-flask run
+venv\Scripts\activate
 
-
-How to Play
-Open http://127.0.0.1:5000
-Player X goes first
-Click to place your mark
-Get 3 in a row to win!
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
