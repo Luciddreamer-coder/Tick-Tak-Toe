@@ -63,6 +63,10 @@ set FLASK_APP=app.py             # Windows
 # Run the server
 flask run
 
+
+
+
+
 5. Open in browser:
 Navigate to http://127.0.0.1:5000
 🎮 How to Play
