@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tak Toe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class=" game-wrapper">
+        <h1>Tic Tak Toe</h1>
+        
+        <div class ="status-box">
+            {% if game.match_over %}
+                <h2 class="alert-text">{{ game.winner_message }}</h2>
+            {% else %}
+                <h2>{% if game.turn == 1 %}X Chance{% else %}O Chance{% endif %}</h2>
+            {% endif %}
+        </div>
+
+        <div class="grid-board">
+            {% for mark in board %}
+                {% if mark == "" and not game.match_over %}
+                    <a href="/move/{{ loop.index0 }}" class="grid-cell interactive">
+                            <span class="cell-number">{{ loop.index0 }}</span>
+                        </a>
+                {% else %}
+                        <div class="grid-cell marked {{ mark.lower() }}">
+                            {{ mark }}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+        </div>
+        <br>
+        <a href="/reset" class="btn-reset">Reset Game</a>
+    </div>
+
+</body>
+</html>
