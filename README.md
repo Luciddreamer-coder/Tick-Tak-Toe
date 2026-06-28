@@ -7,7 +7,7 @@
 
 > **A sleek, dark-themed Tic Tac Toe game built entirely with Flask (Python), HTML, and CSS - No JavaScript required!**
 
-![Game Screenshot](assets/screenshot.png)
+
 
 ## ✨ Features
 
@@ -124,3 +124,4 @@ MIT License - feel free to use this project for learning or personal use!
 👨‍💻 Author - Peeyush
 GitHub: @Luciddreamer-coder
 ```
+<img width="877" height="431" alt="Screenshot 2026-06-28 213102" src="https://github.com/user-attachments/assets/4d7ce90f-30a4-47fa-b818-7442f14eb1c6" />
