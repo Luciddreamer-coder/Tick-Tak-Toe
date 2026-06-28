@@ -7,7 +7,6 @@
 
 > **A sleek, dark-themed Tic Tac Toe game built entirely with Flask (Python), HTML, and CSS - No JavaScript required!**
 
-![Game Screenshot](screenshot.png)
 
 ## ✨ Features
 
