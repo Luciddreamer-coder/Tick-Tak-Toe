@@ -1,3 +1,4 @@
+
 # ❌⭕ Tic Tac Toe - Flask Web App
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
@@ -125,3 +126,5 @@ MIT License - feel free to use this project for learning or personal use!
 GitHub: @Luciddreamer-coder
 ```
 <img width="877" height="431" alt="Screenshot 2026-06-28 213102" src="https://github.com/user-attachments/assets/4d7ce90f-30a4-47fa-b818-7442f14eb1c6" />
+<img width="886" height="439" alt="Screenshot 2026-06-28 213130" src="https://github.com/user-attachments/assets/582890e5-8510-485e-b5a7-efbae44a0706" />
+<img width="866" height="434" alt="Screenshot 2026-06-28 213118" src="https://github.com/user-attachments/assets/511f3deb-d31e-4f10-b32b-e7812b802c06" />
