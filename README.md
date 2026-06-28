@@ -1,6 +1,4 @@
-<img width="886" height="439" alt="Screenshot 2026-06-28 213130" src="https://github.com/user-attachments/assets/b661f7fe-d60d-4698-b43d-a8613b67fd08" />
-<img width="866" height="434" alt="Screenshot 2026-06-28 213118" src="https://github.com/user-attachments/assets/c9633ff5-aa79-4424-afbb-a1faa5844a72" />
-<img width="877" height="431" alt="Screenshot 2026-06-28 213102" src="https://github.com/user-attachments/assets/7c87e66c-2c76-42cf-82c2-6c3ef84d0933" />
+
 # ❌⭕ Tic Tac Toe - Flask Web App
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
@@ -109,3 +107,7 @@ CSS Styling - All visual effects and layout handled by CSS
 MIT License - feel free to use this project for learning or personal use!
 Author - Peeyush
 GitHub: Luciddreamer-coder
+
+<img width="886" height="439" alt="Screenshot 2026-06-28 213130" src="https://github.com/user-attachments/assets/b661f7fe-d60d-4698-b43d-a8613b67fd08" />
+<img width="866" height="434" alt="Screenshot 2026-06-28 213118" src="https://github.com/user-attachments/assets/c9633ff5-aa79-4424-afbb-a1faa5844a72" />
+<img width="877" height="431" alt="Screenshot 2026-06-28 213102" src="https://github.com/user-attachments/assets/7c87e66c-2c76-42cf-82c2-6c3ef84d0933" />
