@@ -45,6 +45,7 @@
 ```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
 cd YOUR-REPO-NAME
+```
 
 **2. Create a virtual environment:**
 ```
@@ -55,3 +56,4 @@ venv\Scripts\activate
 # macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
+```
